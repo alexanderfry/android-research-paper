@@ -1,6 +1,4 @@
 #!/bin/bash
-git clone https://github.com/dineshshetty/Android-InsecureBankv2.git
-cd Android-InsecureBankv2
 virtualenv --python=/usr/bin/python2.7 dzr
 source dzr/bin/activate
 pip install pyopenssl
